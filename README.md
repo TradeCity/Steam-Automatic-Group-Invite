@@ -1,6 +1,6 @@
 # Steam Automatic Group Invite
 ###### DEVELOPMENT STAGES
-The following code is in Beta stages and used for testing purposes only.
+
 ````
 var steam_group_custom_url = "HexaDevelopment"; // ID
 function InviteUserToSteamGroup(group_id)
@@ -46,5 +46,3 @@ function GetGroupData(steam_group_custom_url)
 GetGroupData(steam_group_custom_url);
 
 ````
-
-# Updates Log

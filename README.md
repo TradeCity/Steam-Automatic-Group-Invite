@@ -24,11 +24,6 @@ function InviteUserToSteamGroup(group_id)
 		console.log('Error processing your request. Please try again.');
 	});
 }
-// Start invite process
-GetGroupData(steam_group_custom_url);
-This needs removed lol
-});
-}
 
 function GetGroupData(steam_group_custom_url)
 {
@@ -41,4 +36,9 @@ function GetGroupData(steam_group_custom_url)
 		InviteUserToSteamGroup($(xml).find('groupID64').text());
 	}).fail(function() {
 		console.log('The request failed or the group custom URL is wrong.');
-	
+
+
+// Start invite process
+GetGroupData(steam_group_custom_url);
+});
+}

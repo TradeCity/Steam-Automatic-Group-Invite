@@ -1,6 +1,6 @@
 # Steam Automatic Group Invite - updated code.
-[code]
-var steam_group_custom_url = "HexaDevelopment"; // ID
+
+`var steam_group_custom_url = "HexaDevelopment"; // ID
 
 function InviteUserToSteamGroup(group_id)
 {
@@ -43,4 +43,6 @@ function GetGroupData(steam_group_custom_url)
 }
 
 GetGroupData(steam_group_custom_url);
-[/code]
+`
+
+More information.
